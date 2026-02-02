@@ -4,7 +4,7 @@ from matplotlib.patches import Patch
 
 from utils import make_mesh_collection, set_axes_equal
 from metrics import compute_hausdorff_distance
-from marchingCubesPrototype import marching_cubes
+from marching_cubes import marching_cubes
 
 
 def run_interactive_viewer(
