@@ -1,0 +1,9 @@
+# Medical datasets
+datasets/PKG/
+datasets/CT/
+*.nii
+*.nii.gz
+*.mhd
+*.raw
+*.vtk
+*.vtp
