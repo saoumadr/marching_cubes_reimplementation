@@ -1,7 +1,8 @@
 import numpy as np
 import time
 
-from utils import *
+from datasets import choose_data_set
+from metrics import compute_hausdorff_distance, compute_assd
 from marchingCubesPrototype import marching_cubes
 from visualization import run_interactive_viewer
 
