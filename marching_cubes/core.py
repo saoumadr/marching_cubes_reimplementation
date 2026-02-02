@@ -1,5 +1,6 @@
 import numpy as np
-from tables import EDGE_TABLE, TRIANGLE_TABLE  
+import numpy as np
+from .tables import EDGE_TABLE, TRIANGLE_TABLE 
 
 def interpolate_vertex(p1, p2, valp1, valp2, isolevel):
     eps = 1e-8
