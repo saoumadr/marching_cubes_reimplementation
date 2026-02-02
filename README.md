@@ -75,7 +75,7 @@ The naive Marching Cubes implementation provided in the core project is computat
 
 ## Results
 
-Detailed results, visualizations, and quantitative evaluations are provided in the project [report](report\report.pdf).
+Detailed results, visualizations, and quantitative evaluations are provided in the project [report](report/report.pdf).
 
 ---
 
@@ -87,7 +87,7 @@ The current custom implementation has several known limitations:
 - **Performance**: Complexity $O(8n^3)$ makes it impossible to use it on real imaging data without further optimizations.  
 - **Topological ambiguities**: The original Marching Cubes algorithm may generate holes or non-manifold surfaces.  
 
-These limitations motivate the use of **modern variants** and **libraries** in the [experimental section](experiments).
+These limitations motivate the use of **modern variants** and **libraries** in the [experimental section](experiments/).
 
 ---
 
@@ -99,7 +99,7 @@ Alternatives to the original Marching Cubes algorithm are explored experimentall
 - **Marching Tetrahedra**: Avoids ambiguous cases by decomposing cubes into tetrahedra.  
 - **Optimized library implementations**: Used for benchmarking on real CT volumes.
 - 
-The implementations of these variants are available in the [experiments](experiments) directory.
+The implementations of these variants are available in the [experiments](experiments/) directory.
 
 ---
 
