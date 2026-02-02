@@ -2,11 +2,8 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 from matplotlib.patches import Patch
 
-from utils import (
-    make_mesh_collection,
-    set_axes_equal,
-    compute_hausdorff_distance
-)
+from utils import make_mesh_collection, set_axes_equal
+from metrics import compute_hausdorff_distance
 from marchingCubesPrototype import marching_cubes
 
 
