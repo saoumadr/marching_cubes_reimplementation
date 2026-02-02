@@ -6,7 +6,6 @@ from utils import make_mesh_collection, set_axes_equal
 from metrics import compute_hausdorff_distance
 from marching_cubes import marching_cubes
 
-
 def run_interactive_viewer(
     volume,
     verts,
