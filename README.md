@@ -98,7 +98,7 @@ Alternatives to the original Marching Cubes algorithm are explored experimentall
 - **Marching Cubes 33 (MC33)**: Solves topological ambiguities by expanding the number of cube configurations.  
 - **Marching Tetrahedra**: Solves topological ambiguities by decomposing cubes into tetrahedra.  
 - **Optimized Marching Cubes using Scikit-image**: Used for benchmarking on real CT volumes.
-- 
+  
 The implementations of these variants are available in the [experiments](experiments/) directory.
 
 ---
