@@ -2,7 +2,8 @@
 
 This project uses the public **CT-ORG** dataset provided by *The Cancer Imaging Archive (TCIA)*.
 
-The dataset is used **exclusively for the experimental benchmarks**, as the initial Marching Cubes implementation is computationally too slow to reconstruct all meshes.
+The dataset is used **exclusively for the experimental benchmarks**, as the initial Marching Cubes implementation is computationally too slow to reconstruct all meshes. 
+Feel free to navigate through all the subjects to reconstruct different parts of the human body. 
 
 Dataset URL:  
 https://www.cancerimagingarchive.net/collection/ct-org/
