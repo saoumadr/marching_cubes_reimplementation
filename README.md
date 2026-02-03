@@ -1,7 +1,7 @@
 # 3D Surface Reconstruction with Marching Cubes
 
 This repository contains a **Python implementation of the Marching Cubes (MC)** algorithm for 3D surface reconstruction from volumetric data.  
-The project is primarily **educational**, focusing on understanding the algorithmic foundations, limitations, and modern variants of Marching Cubes.
+The project is primarily **educational**, focusing on understanding the algorithm, its limitations and modern variants.
 
 The repository includes:
 
