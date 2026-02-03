@@ -84,16 +84,16 @@ Detailed results, visualizations, and quantitative evaluations are provided in t
 The current custom implementation has several known limitations:
 
 - **Vertex duplication**: Vertices are not shared between adjacent triangles, increasing memory usage.  
-- **Performance**: Complexity $O(8n^3)$ makes it impossible to use it on real imaging data without further optimizations.  
+- **Performance**: Complexity $O(8n^3)$ makes it impossible to use it on real imaging data without further optimizations. 
 - **Topological ambiguities**: The original Marching Cubes algorithm may generate holes or non-manifold surfaces.  
 
 These limitations motivate the use of **modern variants** and **libraries** in the [experimental section](experiments/).
 
 ---
 
-## Modern Variants
+## Variants
 
-Alternatives to the original Marching Cubes algorithm are explored experimentally:
+Alternatives to the presented python Marching Cubes algorithm are explored experimentally:
 
 - **Marching Cubes 33 (MC33)**: Solves topological ambiguities by expanding the number of cube configurations.  
 - **Marching Tetrahedra**: Solves topological ambiguities by decomposing cubes into tetrahedra.  
