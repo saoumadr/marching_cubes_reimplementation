@@ -11,7 +11,7 @@ The repository includes:
 - Experimental comparison with modern implementations on real CT scans
 - Discussion of limitations and variants of the algorithm
 
-  ![3D Reconstruction Demo](<img src="images/demo.gif" width="500">)
+<img src="images/demo.gif" width="500">
 
 ---
 
