@@ -52,7 +52,7 @@ def extract_surface_mc33(mask, spacing, iso_value=0.5):
         method="lewiner"
     )
 
-    # Convert faces to PyVista format
+    
     faces_pv = np.hstack(
         (np.full((faces.shape[0], 1), 3), faces)
     ).astype(np.int32)
