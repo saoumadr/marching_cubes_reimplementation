@@ -1,4 +1,4 @@
-nibabel==5.2.1
-scikit-image==0.21.0
-pyvista==0.44.2 
-vtk==9.3.1
+nibabel>=5.2.0
+scikit-image>=0.24.0
+pyvista>=0.44.0 
+vtk>=9.3.0
