@@ -1,1 +1,1 @@
-from datasets import choose_data_set
+from .synthetic_datasets import choose_data_set

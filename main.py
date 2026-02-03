@@ -8,7 +8,7 @@ from visualization import run_interactive_viewer
 
 
 # -----------DATASET------------
-DATASET = "sphere"   # "sphere", "torus", "ellipsoid", "cube", "cone"
+DATASET = "torus"   # "sphere", "torus", "ellipsoid", "cube", "cone"
 n = 2**4            # grid resolution
 
 volume, isolevel_init, gt_points = choose_data_set(DATASET, n)
@@ -20,12 +20,11 @@ grid_min, grid_max = -1.0, 1.0
 origin = np.array([grid_min, grid_min, grid_min], dtype=float)
 spacing = np.array([(grid_max - grid_min) / (n - 1)] * 3, dtype=float)
 
-# model units to millimeters
 unit_to_mm = physical_size_mm / (grid_max - grid_min)
 voxel_size_mm = spacing[0] * unit_to_mm
 
 
-# -----------MARCHING CUBES AND METRICS EVALUATION------------
+# -----------RUNNING AND EVALUATION------------
 start = time.time()
 verts, faces = marching_cubes(volume, isolevel_init, origin=origin, spacing=spacing)
 end = time.time()
