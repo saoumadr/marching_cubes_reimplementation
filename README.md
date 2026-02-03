@@ -26,11 +26,12 @@ The repository includes:
 
 ## Installation
 
-Clone the repository and install the core dependencies:
+Clone the repository, create the environment and install the core dependencies:
 
 ```bash
 git clone <repository_url>
 cd <repository_folder>
+conda create -n envname python=3.11
 pip install -r requirements.txt
 ```
 
