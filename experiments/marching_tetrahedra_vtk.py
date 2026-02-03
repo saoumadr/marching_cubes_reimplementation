@@ -32,7 +32,7 @@ LABEL_PATH = "path/to/labels-1.nii.gz"   # CHANGE THIS
 ISO_VALUE = 0.5
 BACKGROUND_LABEL = 0
 
-# ------Utilities - ------
+# ------Utilities -------
 
 def load_nifti_labels(path):
     """Load NIfTI label volume."""
